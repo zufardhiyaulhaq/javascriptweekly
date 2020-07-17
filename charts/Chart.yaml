@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+name: javascriptweekly
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+description: javascriptweekly scrapper
+home: https://github.com/zufardhiyaulhaq/javascriptweekly
+keywords:
+  - weekly
+  - javascriptweekly
