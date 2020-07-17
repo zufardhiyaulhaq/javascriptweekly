@@ -1,10 +1,10 @@
-# nodeweekly charts
-Helm chart for nodeweeklys
+# javascriptweekly charts
+Helm chart for javascriptweeklys
 
 ### Installing the charts
-From root directory of nodeweekly. Please edit the values.yaml inside charts before applying.
+From root directory of javascriptweekly. Please edit the values.yaml inside charts before applying.
 ```
-helm install .--name-template nodeweekly -f values.yaml
+helm install . --name-template javascriptweekly -f values.yaml
 ```
 
 ### Configuration
