@@ -9,7 +9,7 @@ cronSchedule: "0 8 * * 1"
 image:
   name: "javascriptweekly"
   repository: "zufardhiyaulhaq/javascriptweekly"
-  tag: "latest"
+  tag: "0.0.1"
 
 #############################
 # envoronment configuration #

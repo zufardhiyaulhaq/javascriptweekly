@@ -1,5 +1,5 @@
-# javascript
-Get data from javascript.com and create Weekly CRDs based on community-operator & push to datastore
+# javascriptweekly charts
+Helm chart for javascriptweeklys
 
 ### Installing the charts
 ```
@@ -25,3 +25,5 @@ helm install zufardhiyaulhaq/javascriptweekly --name-template javascriptweekly -
 | jobHistoryLimit | int | `1` |  |
 | namespace | string | `"javascript-community"` |  |
 | tags | string | `"weekly,nodejs"` |  |
+
+check & modify values.yaml for details
