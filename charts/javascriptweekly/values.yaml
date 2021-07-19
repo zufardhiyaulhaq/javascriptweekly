@@ -1,37 +1,15 @@
 
-# define how many completed & failed pod jobs
-jobHistoryLimit: 1
+cronSchedule: "0 8 * * 0"
 
-# define time to exec the cronjob
-cronSchedule: "0 8 * * 1"
-
-# image cronjob configuration
 image:
-  name: "javascriptweekly"
   repository: "zufardhiyaulhaq/javascriptweekly"
-  tag: "0.0.1"
+  tag: "v1.0.0"
 
-#############################
-# envoronment configuration #
-#############################
+secret: ""
 
-# github configuration to store the CRDs
-github:
-  token: "your_token"
-  organization: "zufardhiyaulhaq"
-  repository: "community-ops"
-  repository_path: "./manifest/javascript-community/"
-  branch: "master"
-
-# community name for CRDs
-community: "JavaScript Indonesia Community"
-
-# tag for CRDs
-tags: "weekly,nodejs"
-
-# namespace for CRDs
-namespace: "javascript-community"
-
-# image for CRDs
-image_url: "https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png"
+weekly:
+  community: "JavaScript Indonesia Community"
+  tags: "weekly,nodejs"
+  namespace: "javascript-community"
+  image_url: "https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png"
 
