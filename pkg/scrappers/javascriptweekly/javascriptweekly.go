@@ -46,7 +46,7 @@ func (g JavascriptWeekly) GetName() (string, error) {
 func (g JavascriptWeekly) GetArticles() ([]communityv1alpha1.ArticleSpec, error) {
 	var articles []communityv1alpha1.ArticleSpec
 
-	response, err := http.Get("https://javascriptweekly.com/issues/latest?layout=bare")
+	response, err := http.Get(g.URL)
 	if err != nil {
 		return articles, err
 	}
