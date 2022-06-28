@@ -5,13 +5,13 @@
 
 ## Installing the Chart
 
-To install the chart with the release name `my-release` and secret `foo`:
+To install the chart with the release name `my-javascriptweekly` and secret `foo`:
 
 ```console
 kubectl apply -f secret.yaml
 
-helm repo add zufardhiyaulhaq https://charts.zufardhiyaulhaq.com/
-helm install javascriptweekly zufardhiyaulhaq/javascriptweekly --values values.yaml --set secret=foo
+helm repo add javascriptweekly https://zufardhiyaulhaq.com/javascriptweekly/charts/releases/
+helm install my-javascriptweekly javascriptweekly/javascriptweekly --values values.yaml
 ```
 
 {{ template "chart.requirementsSection" . }}
