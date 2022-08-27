@@ -3,10 +3,10 @@ entries:
   javascriptweekly:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2022-08-27T18:06:35.953792+07:00"
+    created: "2022-08-27T18:14:17.003733+07:00"
     description: Get data from javascript news and create Weekly CRDs based on community-operator
       and push to git datastore
-    digest: d0761bfbec0b66f7d89f8f3ce9c72dc8d441f9d6cabbef694b1a110d137d3f28
+    digest: 14e8f78da2ec45c52c6e82393fb704aba7b3f67999f212bb0b7cd10669326aa1
     home: https://github.com/zufardhiyaulhaq/javascriptweekly
     maintainers:
     - email: zufardhiyaulhaq@gmail.com
@@ -19,7 +19,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-08-27T18:06:35.953205+07:00"
+    created: "2022-08-27T18:14:17.003239+07:00"
     description: Get data from javascript news and create Weekly CRDs based on community-operator
       and push to git datastore
     digest: 995e923fb7bf41e17ee0f762cd35e2981abf3cc265187b6e557cc5c374b523d1
@@ -35,7 +35,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-08-27T18:06:35.952376+07:00"
+    created: "2022-08-27T18:14:17.002711+07:00"
     description: Get data from javascript news and create Weekly CRDs based on community-operator
       and push to git datastore
     digest: 496efc4bb7e1d56e21ea246228b6ef6c7235a5f8acb04e05feba8f1abc502f29
@@ -51,7 +51,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2022-08-27T18:06:35.951472+07:00"
+    created: "2022-08-27T18:14:17.002205+07:00"
     description: javascriptweekly scrapper
     digest: cb398c6e1279f75a594f7855d53dcd4a2f488f923edc292c28d7c1cabd60b981
     home: https://github.com/zufardhiyaulhaq/javascriptweekly
@@ -62,4 +62,4 @@ entries:
     urls:
     - javascriptweekly-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-27T18:06:35.949468+07:00"
+generated: "2022-08-27T18:14:17.001179+07:00"
